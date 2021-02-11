@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script>
+function formsubmit() {
+document.forms ["MyForm"]. submit();
+}
+
+</script>
+</head>
+<body>
+
+<h1>Customer Information</h1>
+
+<form name="MyForm" action="/action_page.php" method="get">
+<label for="firstname"> First Name:</label>
+<input type="text" id="firstname" name="firstname"><br><br>
+<label for="lastname">Last name: </label>
+<input type="text" id="lastname" name="lastname"><br><br>
+<label for="email">Email: </label>
+<input type="text" id="email" name="email"><br><br>
+<input type="button" value="submit">
+</form>
+
+</body>
+</html>
